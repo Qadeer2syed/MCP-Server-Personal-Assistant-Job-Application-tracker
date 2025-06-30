@@ -1,0 +1,33 @@
+{
+  "name": "personal-assistant-mcp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "dev": "node --loader ts-node/esm src/server.ts",
+    "dev:tsx": "tsx src/server.ts",
+    "watch": "tsc --watch",
+    "clean": "rimraf dist"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.13.2",
+    "dotenv": "^17.0.0",
+    "google-auth-library": "^10.1.0",
+    "googleapis": "^150.0.1",
+    "open": "^10.1.2",
+    "puppeteer": "^24.11.1",
+    "whatsapp-web.js": "^1.23.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.7",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3"
+  }
+}
