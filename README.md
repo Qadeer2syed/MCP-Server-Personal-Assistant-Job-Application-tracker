@@ -20,3 +20,9 @@ To connect to the **personal-assistant** MCP server, add the following block to 
     }
   }
 }
+```
+
+## Instructions to launch the server
+
+Run the following in the project folder
+```npm run dev```
