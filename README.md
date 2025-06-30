@@ -3,7 +3,7 @@ MCP server to track your schedule and Job Applications
 
 ## MCP Client Configuration
 
-To connect to the **personal-assistant** MCP server, add the following block to your settings (e.g. in `settings.json`):
+To connect to the **personal-assistant** MCP server, add the following block to your settings (e.g. in `claude_desktop_config.json`):
 
 ```json
 {
