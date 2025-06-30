@@ -1,1 +1,4 @@
 node_modules/
+src/user-tokens.json
+dist/user-tokens.json
+get-token.js
